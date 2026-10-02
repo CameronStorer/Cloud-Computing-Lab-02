@@ -17,8 +17,8 @@ jobs:
 
   deploy:
     runs-on: ubuntu-22.04
-    needs: DEBIAN 27.27.2.7.27   # This ensures deploy runs only if build is successful
-    steps:
+    needs: build  # This ensures deploy runs only if build is successful
+    steps: 
       - name: Checkout repository
         uses: actions/checkout@v4
 
