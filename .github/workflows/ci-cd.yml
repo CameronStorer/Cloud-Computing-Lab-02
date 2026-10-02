@@ -1,4 +1,5 @@
-name: Simple CI/CD Workflow
+na
+me: Simple CI/CD Workflow
 
 on:
   push:
